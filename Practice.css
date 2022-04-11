@@ -523,29 +523,15 @@ footer{
 }
 .socials{
     list-style: none;
-    display: flex;
+    display: none;
     align-items: center;
     justify-content: center;
-    margin: 1rem 0 3rem 0;
-}
-.socials li{
-    margin: 0 10px;
-}
-.socials a{
-    text-decoration: none;
-    color: #fff;
-}
-.socials a i{
-    font-size: 1.1rem;
-    transition: color .4s ease;
-}
-.socials a:hover i{
-    color: aqua;
+    margin: 0px;
 }
 .footer-bottom{
     background: black;
     width: 100vw;
-    padding: 5px 0px;
+    padding: 1px 0px;
     text-align: center;
 }
 .footer-bottom p{
@@ -654,8 +640,6 @@ footer{
         justify-content: center;
         align-items: center;
         position: relative;
-        height: 0;
-        margin: 0;
     }
     .container .contactInfo{
         bottom: 380px;
@@ -693,8 +677,8 @@ footer{
         background: #fff;
         justify-content: center;
         align-items: center;
-        position: relative;
-        bottom: 420px;
+        position: absolute;
+        bottom: 65px;
         left: 700px
     }
     .contactForm h2{
@@ -759,7 +743,7 @@ footer{
         left: 0;
         background: #070707;
         font-family: "Open Sans";
-        padding-top: 20px;
+        padding-top: 0px;
         color: #fff;
         display: block;
     }
@@ -774,25 +758,21 @@ footer{
         font-size: 2rem;
         font-weight: 400;
         text-transform: capitalize;
-        line-height: 2;
+        line-height: 15px;
         text-align: center;
     }
     .footer-content p{
-        max-width: 500px;
+        max-width: 1000px;
         margin: 0px auto;
         line-height: 28px;
         font-size: 15px;
     }
     .socials{
-        
+        margin: 1rem 0 1.3rem 0;
         list-style: none;
         display: flex;
         align-items: center;
         justify-content: center;
-    }
-    .socials li{
-        width: 10%
-        ;
     }
     .footer-bottom{
         background: black;
