@@ -415,7 +415,7 @@ nav{
 
 .contactForm{
     margin: 15px;
-    width: 90%;
+    width: 80%;
     padding: 10px 25px;
     background: #fff;
     position: absolute;
@@ -506,6 +506,7 @@ footer{
     justify-content: center;
     flex-direction: column;
     text-align: center;
+    display: none;
 }
 .footer-content h3{
     font-size: 2rem;
@@ -544,7 +545,7 @@ footer{
 .footer-bottom{
     background: black;
     width: 100vw;
-    padding: 20px 0;
+    padding: 5px 0px;
     text-align: center;
 }
 .footer-bottom p{
@@ -635,7 +636,7 @@ footer{
         color: rgb(68, 58, 46);
         position: relative;
         display: flex;
-        bottom: 5px;
+        bottom: 65px;
         left: 180px;
     }
     .content p{
@@ -646,7 +647,7 @@ footer{
         color:black;
         position: relative;
         display: flex;
-        bottom: 20px;
+        bottom: 120px;
     }
     .container{
         display: block;
@@ -750,5 +751,73 @@ footer{
         cursor: pointer;
         padding: 10px;
         font-size: 18px;
+    }
+    footer{
+        position: relative;
+        bottom: 0;
+        right: 0;
+        left: 0;
+        background: #070707;
+        font-family: "Open Sans";
+        padding-top: 20px;
+        color: #fff;
+        display: block;
+    }
+    .footer-content{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        text-align: center;
+    }
+    .footer-content h3{
+        font-size: 2rem;
+        font-weight: 400;
+        text-transform: capitalize;
+        line-height: 2;
+        text-align: center;
+    }
+    .footer-content p{
+        max-width: 500px;
+        margin: 0px auto;
+        line-height: 28px;
+        font-size: 15px;
+    }
+    .socials{
+        list-style: none;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin: 1rem 0 3rem 0;
+    }
+    .socials li{
+        margin: 0 10px;
+    }
+    .socials a{
+        text-decoration: none;
+        color: #fff;
+    }
+    .socials a i{
+        font-size: 1.1rem;
+        transition: color .4s ease;
+    }
+    .socials a:hover i{
+        color: aqua;
+    }
+    .footer-bottom{
+        background: black;
+        width: 98.5vw;
+        padding: 20px 0;
+        text-align: center;
+    }
+    .footer-bottom p{
+        font-size: 14px;
+        word-spacing: 2px;
+        text-transform: capitalize;
+    }
+    .footer-bottom span{
+        text-transform: uppercase;
+        opacity: .4;
+        font-weight: 200;
     }
 }
