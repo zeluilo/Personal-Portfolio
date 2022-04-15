@@ -11,7 +11,7 @@
     background-image: url(sshhh.jpeg);
     background-size: cover;
     background-position: center center;
-    height: 115vh;
+    height: 95vh;
     display: block;
 }
 nav{
@@ -46,7 +46,7 @@ nav{
 }
 .navbar-links li a{
     text-decoration: none;
-    color: white;
+    color: rgb(255, 226, 194);
     padding: .5rem;
     display: block;
 }
@@ -75,7 +75,7 @@ nav{
 .nav-label span::before,
 .nav-label span::after{
     display: block;
-    background: white;
+    background: rgb(255, 226, 194);
     height: 2px;
     width: 1.5em;
     border-radius: 2px;
@@ -102,7 +102,7 @@ nav{
     justify-content: space-between;
     align-items: flex-start;
     background-color:rgba(6, 10, 61, 0.616);
-    color: white;
+    color: rgb(255, 226, 194);
     flex-direction: column;
     font-size: 1.5rem;
     text-transform: uppercase;
@@ -110,7 +110,7 @@ nav{
 }
 footer{
     position: relative;
-    top: 85%;
+    top: 83%;
     right: 0;
     left: 0;
     background: #070707;
@@ -173,7 +173,6 @@ footer{
 }
 .module h2{
     color: rgb(255, 226, 194);
-    color: #fff;
 }
 .projects{
     background-image: url(sshhh.jpeg);
@@ -211,16 +210,19 @@ footer{
     text-align: center;
     color: rgb(255, 255, 255);
     background-color: rgb(73, 73, 73);
+    height: 150px;
 }
 .pro2 p{
     text-align: center;
     color: rgb(248, 247, 247);
     background-color: rgb(73, 73, 73);
+    height: 150px;
 }
 .pro3 p{
     text-align: center;
     color: rgb(247, 247, 247);
     background-color: rgb(73, 73, 73);
+    height: 150px;
 }
 /*=========================== SITE REPORT ===============================*/
 

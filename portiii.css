@@ -11,7 +11,7 @@
     background-image: url(sshhh.jpeg);
     background-size: cover;
     background-position: center center;
-    height: 160vh;
+    height: 145vh;
     display: block;
 }
 nav{
@@ -25,7 +25,7 @@ nav{
     justify-content: space-between;
     align-items: flex-start;
     background-color:rgba(118, 106, 168, 0.616);
-    color: white;
+    color: rgb(255, 226, 194);
     flex-direction: column;
 }
 .navbar-links{
@@ -46,7 +46,7 @@ nav{
 }
 .navbar-links li a{
     text-decoration: none;
-    color: white;
+    color: rgb(255, 226, 194);
     padding: .5rem;
     display: block;
 }
@@ -75,7 +75,7 @@ nav{
 .nav-label span::before,
 .nav-label span::after{
     display: block;
-    background: white;
+    background: rgb(255, 226, 194);
     height: 2px;
     width: 1.5em;
     border-radius: 2px;
@@ -102,7 +102,7 @@ nav{
     justify-content: space-between;
     align-items: flex-start;
     background-color:rgba(6, 10, 61, 0.616);
-    color: white;
+    color: rgb(255, 226, 194);
     flex-direction: column;
     font-size: 1.5rem;
     text-transform: uppercase;
@@ -172,7 +172,7 @@ footer{
     font-size: 25px;
 }
 .module h2{
-    color: #fff;
+    color: rgb(255, 161, 161);
 }
 .projects{
     background-image: url(sshhh.jpeg);
@@ -205,14 +205,17 @@ footer{
 }
 .pro1 p{
     text-align: center;
+    font-size: 25px;
     color: rgb(255, 255, 255);
 }
 .pro2 p{
     text-align: center;
+    font-size: 25px;
     color: rgb(248, 247, 247);
 }
 .pro3 p{
     text-align: center;
+    font-size: 25px;
     color: rgb(247, 247, 247);
 }
 .pro1 .pic{
@@ -369,6 +372,32 @@ footer{
         width: 370px;
         height: 300px;
     }
+    .pro1 .pic:hover{
+        width:400px;
+        height: 330px;
+        border-radius: 20px;
+        padding: .2rem;
+        border-color: red;
+        transition: .6s;
+    }
+    .pro2 .pic:hover{
+        width:400px;
+        height: 330px;
+        border-radius: 20px;
+        padding: .2rem;
+        border-color: red;
+        transition: .6s;
+       
+    }
+    .pro3 .pic:hover{
+        width:400px;
+        height: 330px;
+        border-radius: 20px;
+        padding: .2rem;
+        border-color: red;
+        transition: .6s;
+    }
+        
 }
 
 /*=========================== SITE REPORT ========================*/

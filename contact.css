@@ -22,7 +22,7 @@ nav{
     justify-content: space-between;
     align-items: flex-start;
     background-color: rgba(118, 106, 168, 0.616);
-    color: white;
+    color: rgb(255, 226, 194);
     flex-direction: column;
 }
 .navbar-links{
@@ -43,7 +43,7 @@ nav{
 }
 .navbar-links li a{
     text-decoration: none;
-    color: white;
+    color: rgb(255, 226, 194);
     padding: .5rem;
     display: block;
 }
@@ -72,7 +72,7 @@ nav{
 .nav-label span::before,
 .nav-label span::after{
     display: block;
-    background: white;
+    background: rgb(255, 226, 194);
     height: 2px;
     width: 1.5em;
     border-radius: 2px;
@@ -99,7 +99,7 @@ nav{
     justify-content: space-between;
     align-items: flex-start;
     background-color:rgba(6, 10, 61, 0.616);
-    color: white;
+    color: rgb(255, 226, 194);
     flex-direction: column;
     font-size: 1.5rem;
     text-transform: uppercase;
@@ -196,13 +196,12 @@ nav{
     padding: 10px 25px;
     background: #fff;
     position: absolute;
-    bottom: 10px;
+    bottom: 70px;
     border: 20px;
     border-color: rgb(158, 130, 94);
 }
 .contactForm h2{
     font-size: 30px;
-    color: #333;
     font-weight: 500;
     display: none;
 }
