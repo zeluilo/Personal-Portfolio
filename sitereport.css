@@ -2,7 +2,7 @@
     text-decoration: none;
     list-style: none;
 }
-.blog{
+.sitereport{
     font-family: sans-serif;
     margin: 0;
     padding: 0;
@@ -11,7 +11,7 @@
     background-image: url(sshhh.jpeg);
     background-size: cover;
     background-position: center center;
-    height: 100vh;
+    height: 365vh;
     display: block;
 }
 nav{
@@ -25,7 +25,7 @@ nav{
     justify-content: space-between;
     align-items: flex-start;
     background-color:rgba(118, 106, 168, 0.616);
-    color: white;
+    color:rgb(255, 226, 194);
     flex-direction: column;
 }
 .navbar-links{
@@ -46,7 +46,7 @@ nav{
 }
 .navbar-links li a{
     text-decoration: none;
-    color: white;
+    color: rgb(255, 226, 194);
     padding: .5rem;
     display: block;
 }
@@ -75,7 +75,7 @@ nav{
 .nav-label span::before,
 .nav-label span::after{
     display: block;
-    background: white;
+    background: rgb(255, 226, 194);
     height: 2px;
     width: 1.5em;
     border-radius: 2px;
@@ -102,7 +102,7 @@ nav{
     justify-content: space-between;
     align-items: flex-start;
     background-color:rgba(6, 10, 61, 0.616);
-    color: white;
+    color:rgb(255, 226, 194);
     flex-direction: column;
     font-size: 1.5rem;
     text-transform: uppercase;
@@ -166,10 +166,45 @@ footer{
     opacity: .4;
     font-weight: 200;
 }
+.report h2{
+    font-weight: 800;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 30px;
+    color: rgb(255, 226, 194);
+    text-align: center;
+}
+.report p{
+    font-size: 22px;
+    margin: 0;
+    text-align: center;
+    color:rgb(255, 161, 161);
+    font-family: poppins;
+}
+.validation{
+    width: 100%;
+    text-align: center;
+}
+.validation h2{
+    font-weight: 800;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 20px;
+    color: rgb(255, 161, 161);
+}
+.validation p{
+    font-weight: 800;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 30px;
+    margin: 0;
+    text-align: center;
+    color: rgb(255, 226, 194);
+}
 /*=========================== SITE REPORT ===============================*/
 
 @media (min-width : 700px){
     /*=========================== SITE REPORT ========================*/
+    .banner{
+        height: 350vh;
+    }
     footer{
         position: relative;
         bottom: 0;
@@ -258,6 +293,12 @@ footer{
     }
     .nav-label{
         display: none;
+    }
+    .report{
+        width: 70%;
+        left: 13%;
+        top: 0;
+        position: relative;
     }
 }
 /*=========================== SITE REPORT ========================*/
