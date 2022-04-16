@@ -11,7 +11,7 @@
     background-image: url(sshhh.jpeg);
     background-size: cover;
     background-position: center center;
-    height: 200vh;
+    height: 365vh;
     display: block;
 }
 nav{
@@ -170,8 +170,6 @@ footer{
     font-weight: 800;
     font-family: 'Courier New', Courier, monospace;
     font-size: 30px;
-    justify-content: space-between;
-    align-items: center;
     color: rgb(255, 226, 194);
     text-align: center;
 }
@@ -182,10 +180,31 @@ footer{
     color:rgb(255, 161, 161);
     font-family: poppins;
 }
+.validation{
+    width: 100%;
+    text-align: center;
+}
+.validation h2{
+    font-weight: 800;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 20px;
+    color: rgb(255, 161, 161);
+}
+.validation p{
+    font-weight: 800;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 30px;
+    margin: 0;
+    text-align: center;
+    color: rgb(255, 226, 194);
+}
 /*=========================== SITE REPORT ===============================*/
 
 @media (min-width : 700px){
     /*=========================== SITE REPORT ========================*/
+    .banner{
+        height: 350vh;
+    }
     footer{
         position: relative;
         bottom: 0;

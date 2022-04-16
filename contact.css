@@ -174,7 +174,6 @@ nav{
     font-size: 16px;
     color: #fff;
     flex-direction: column;
-    font-weight: 300%;
 }
 .container .contactInfo .box .text h2{
     font-weight: bold;
@@ -196,7 +195,7 @@ nav{
     padding: 10px 25px;
     background: #fff;
     position: absolute;
-    bottom: 70px;
+    bottom: 20px;
     border: 20px;
     border-color: rgb(158, 130, 94);
 }
@@ -212,6 +211,15 @@ nav{
     position: relative;
     width: 100%;
     left: 0;
+}
+.contactForm .submit{
+    position: relative;
+    width: 100%;
+    left: 0;
+}
+.contactForm .submit:hover{
+    transition: .5s ease-in-out;
+
 }
 .contactForm .inputBox input
 {
@@ -247,6 +255,15 @@ nav{
     color: #666;
     bottom: 0;
 }
+.contactForm .submit span{
+    position: absolute;
+    left: 0;
+    width: 100%;
+    font-size: 25px;
+    color: #fff;
+    margin: 14px 5px;
+    pointer-events: none;
+}
 .contactForm .inputBox input:focus ~ span,
 .contactForm .inputBox input:valid ~ span,
 .contactForm .inputBox textarea:focus ~ span,
@@ -256,16 +273,15 @@ nav{
     transition: .4s ease-in-out;
     transform: translateY(-15px);
 }
-.contactForm .inputBox input[type="submit"]
+.contactForm .submit button[type="submit"]
 {
-    width: 100px;
-    background: rgb(245, 140, 140);
-    color: #fff;
+    width: 70px;
+    height: 50px;
+    background: rgb(0, 0, 0);
     border: none;
     cursor: pointer;
-    padding: 10px;
-    font-size: 18px;
 }
+
 footer{
     position: relative;
     bottom: 0;
@@ -426,7 +442,6 @@ footer{
             font-size: 16px;
             color: #fff;
             flex-direction: column;
-            font-weight: 300%;
         }
         .container .contactInfo .box .text h2{
             font-weight: bold;
@@ -460,8 +475,16 @@ footer{
             color:rgb(245, 140, 140);
             font-size: 17px;
             transition: .4s ease-in-out;
-            opacity: 50px;
-}
+        }
+        .contactForm .submit button:hover
+        {
+            transition: .5s;
+            transform: scale(1.1,1.1);
+            font-size: 30px;
+        }
+        .contactForm .submit span:hover{
+            font-size: 30px;
+        }
         footer{
             position: relative;
             bottom: 0;
